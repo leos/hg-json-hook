@@ -12,7 +12,7 @@ precommit = python:/home/leo/hg-json-hook/hgjsonhook.py:run
 ```
 Replace `/home/leo/` with wherever you cloned it to.
 
-The hook hasn't been tested as anything other than a `precommit`. Pull requests welcome if it works as another hook.
+The hook hasn't been tested as anything other than a `precommit`. Pull requests welcome if it works as a different type of hook.
 
 ### Usage
 The hook will automatically run on commit. If there are any trailing commas detected in json files that are part of the commit, you'll be prompted to fix them. Hit `y` to correct them or `n` to ignore.
