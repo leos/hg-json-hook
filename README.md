@@ -1,6 +1,8 @@
 # Mercurial JSON validation hook
 
-A simple Mercurial [precommit](http://www.selenic.com/mercurial/hgrc.5.html#hooks) hook script to fix trailing commas in JSON files and to make sure that `json` can load up the file. It's not a JSON Lint run but generally good enough to find issues.
+A simple pure python Mercurial [precommit](http://www.selenic.com/mercurial/hgrc.5.html#hooks) hook script to fix trailing commas in JSON files and to make sure that `json` can load up the file. It's not a JSON Lint run but generally good enough to find issues.
+
+There's lots of other options out there, for example: [JSHint](http://www.jshint.com/) but this hook doesn't require Node or anything outside of Python.
 
 ### Installation
 Clone this repo: `git clone git://github.com/leos/hg-json-hook.git`
