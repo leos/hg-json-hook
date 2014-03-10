@@ -22,6 +22,8 @@ The hook will automatically run on commit. If there are any trailing commas dete
 If the `json.loads` fails, you'll be given the message from that. Newer `simplejson` versions tend to be more descriptive.
 
 ### Requirements
-* Python 2.4+
-* Will use `simplejson` if it's installed (required on Python 2.4, 2.5)
-* ANSI compatible terminal for color (Windows users need ansi.sys or equivalent - try [ansicon](https://github.com/adoxa/ansicon))
+Python 2.4+
+
+Uses `simplejson` if it's installed (required on Python 2.4, 2.5)
+
+ANSI compatible terminal for color (Windows users need ansi.sys or equivalent - try [ansicon](https://github.com/adoxa/ansicon))
